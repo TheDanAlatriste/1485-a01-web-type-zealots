@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body {
+	margin-left:20%;
+	margin-right:20%;
+	background-color:#E4E4E4;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+nav {
+	background-color:#EFF18D;
+	padding-top:5px;
+	padding-left:15px;
+	padding-bottom:5px;
+	padding-right:5px;
+	width:50%;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+h2 {
+	font-family:'Montserrat', sans-serif;
+}
+
+h1 {
+	word-spacing: .2em;
+	text-shadow:1.5px 1.5px #EFF18D;
+	height:70px;
+	width:100%;
+	background-color:#C6AF83;
+	padding-top:10px;
+	padding-left:15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:50px;
+	margin-bottom:.45em;
+	color:#2F2F2F}
+
+.manifestolink {
+	left:0%;
+	position:relative;
+}
+
+.joinlink {
+	left:10%;
+	position:relative;
+}
+
+.originslink {
+	left:5%;
+	position:relative;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height:250px;
+	width:400px;
+	padding-top:15px;
+	padding-bottom:15px
+}
+
+div {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+dd {
+	text-height:2em;
+}
+/* CSS Document */
