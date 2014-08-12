@@ -1,26 +1,32 @@
 @charset "UTF-8";
 body {
-	background-color:#E4E4E4;
+	background-color:#BBBBBB;
+	color: #2F2F2F;
 }
 
 #top {
 	word-spacing: .2em;
-	text-shadow:1.5px 1.5px #EFF18D;
-	background-color:#C6AF83;
+	text-shadow:.6px .6px #FFF992;
+	background-color:#5F81F5;
 	background-size:50px 70%;
+	box-shadow: 2px 2px #FFF992;
 	text-indent:21%;
 	padding-left:15px;
 	padding-right:15px;
+	padding-bottom:5px;
 	font-family: 'Montserrat', sans-serif;
-	font-size:50px;
+	font-size:49px;
 	margin-bottom:.45em;
-	color:#2F2F2F}
+	color:#2F2F2F;
+	min-width:700px;
+	}
 	
 .all {
 	margin-left:20%;
 	margin-right:20%;
-	background-color:#E4E4E4;
+	background-color:#BBBBBB;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	min-width:400px;
 }
 
 nav ul {
@@ -28,14 +34,15 @@ nav ul {
 }
 
 nav {
-	background-color:#EFF18D;
+	background-color:#2F2F2F;
 	padding-left:0%;
 	padding-bottom:5px;
 	padding-right:5px;
-	height:15px;
+	height:17px;
 	width:58%;
 	margin-left:21%;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	min-width:400px;
 }
 
 div {
@@ -45,7 +52,7 @@ div {
 
 .manifestolink {
 	float:left;
-	padding-right:5%
+	padding-right:8%
 	
 }
 
@@ -56,7 +63,7 @@ div {
 
 .originslink {
 	float:left;
-	padding-right:5%
+	padding-right:8%
 	
 }
 
@@ -76,6 +83,11 @@ h2 {
 .sub {
 	font-family: 'Montserat', sans-serif;
 	font-size:16px;
+	padding-top:20px;
+}
+
+p, blockquote, dd {
+	line-height:1.75em;
 }
 
 img {
@@ -86,6 +98,27 @@ img {
 	width:400px;
 	padding-top:15px;
 	padding-bottom:15px
+}
+
+h3 {
+	font-family:'Montserrat', sans-serif;
+	font-size:18px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #5F81F5;
+}
+
+a:hover {
+    color: #FFF992;
+}
+
+a:active {
+    color: #989898;
 }
 
 .backto {
